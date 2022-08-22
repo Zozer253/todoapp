@@ -1,0 +1,27 @@
+html {
+    background: url("{{ url_for('static', filename='img/back1.jpg') }}");
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: black;
+}
+
+h1 {
+    color: black;
+}
+
+.content {
+    text-align: center;
+}
+
+table {
+    display: inline-block;
+    left: 45%;
+}
+
+th, td {
+    border: solid black;
+    padding: 6px;
+    margin: 0;
+}
